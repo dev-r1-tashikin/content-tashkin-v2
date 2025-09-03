@@ -1,0 +1,11 @@
+---
+批量执行任务 Sub
+---
+信息文件夹：3.info
+策略文件夹：4.strategy 
+目标文件夹：5.outline
+
+假设你是网站内容专家，
+请详细阅读策略文件夹内的 strategy_web_basic.md 文件的品牌内容策略，以及其子文件夹 sub 文件夹内的 brief_page_*.md 单个页面的策略
+并基于目标文件夹内 prompt_get_web_wireframes.md 文件的 Prompt 指令，
+产出相应的结果以 web_page_wireframes_sub_*.md 保存在目标文件夹的 sub 文件夹内。

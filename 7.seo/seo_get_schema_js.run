@@ -1,0 +1,10 @@
+---
+* 功能：基于页面框架 wireframes 分别加载相应的 prompt 并进行页面撰写
+---
+详情文件夹：7.detail
+
+假设你是品牌SEO专家，
+请读详情文件夹内的 pages 文件夹：
+1、 seo_schema_*.md 
+
+并分别撰写相关页面的 schema.js 内容，独立保存为 page_schema_js_*.md 命名格式的文件

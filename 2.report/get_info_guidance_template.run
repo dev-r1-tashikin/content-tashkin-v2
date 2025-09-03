@@ -1,0 +1,4 @@
+---
+* H1 对竞品内容进行分析
+---
+读取 prompt_get_info_template.md 以及 prompt_get_info_visual.md 的 Prompt 语句，并执行，生成

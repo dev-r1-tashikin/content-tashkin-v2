@@ -1,0 +1,186 @@
+/* 品牌样式设计表 Report Guidance Style */
+
+/* 1. CSS 变量 (Custom Properties) */
+:root {
+    --primary-color: #036AE0; /* 品牌主色，深蓝色 */
+    --secondary-color: #9CDCFF; /* 品牌辅助色，浅蓝色 */
+    --accent-color-success: #59B730; /* 强调色 - 成功 */
+    --accent-color-danger: #F02D37; /* 强调色 - 错误 */
+    --text-color: #31353D; /* 主要文本颜色，深灰色 */
+    --card-bg: #F0F0F0; /* 卡片背景色，浅灰色 */
+    --card-bg-alt: #9CDCFF; /* 卡片背景辅助色，浅蓝色 */
+    --link-color: #036AE0; /* 链接颜色，品牌主色 */
+    --heading-color: #036AE0; /* 标题颜色，品牌主色 */
+    --button-border-color: #036AE0; /* 按钮边框颜色，品牌主色 */
+    --border-color: rgba(0, 0, 0, .2); /* 边框颜色，浅黑色透明 */
+}
+
+/* 2. 全局样式 */
+body {
+    font-family: Roboto, sans-serif; /* 正文字体 */
+    font-size: 15px; /* 正文字号 */
+    line-height: 1.6; /* 正文行高 */
+    color: var(--text-color); /* 文本颜色，使用 CSS 变量 */
+    background-color: #fff; /* 页面背景色白色 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Sora, sans-serif; /* 标题字体 */
+    font-weight: 600; /* 标题字重加粗 */
+    line-height: 1.2; /* 标题行高 */
+    color: var(--heading-color); /* 标题颜色，使用 CSS 变量 */
+}
+
+a {
+    color: var(--link-color); /* 链接颜色，使用 CSS 变量 */
+    text-decoration: none; /* 默认无下划线 */
+}
+
+a:hover, a:focus {
+    color: var(--link-color); /* 悬停/焦点状态链接颜色，使用 CSS 变量 */
+    text-decoration: underline; /* 悬停/焦点状态下划线 */
+}
+
+/* 3. 布局样式 */
+.container {
+    width: 1270px; /* 容器最大宽度 */
+    margin: 0 auto; /* 水平居中 */
+    padding-left: 15px; /* 左右 padding */
+    padding-right: 15px;
+}
+
+.row {
+    margin-left: -15px; /* 行负 margin，抵消容器 padding */
+    margin-right: -15px;
+}
+
+[class*="col-"] {
+    padding-left: 15px; /* 列 padding */
+    padding-right: 15px;
+}
+
+/* 4. UI 组件样式 - 按钮 */
+.btn {
+    display: inline-flex; /* Flex 布局，方便按钮内容垂直居中 */
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    font-weight: 700;
+    outline: none;
+    text-align: center;
+    user-select: none;
+    min-height: 38px;
+    padding: 6px 14px;
+    font-size: 15.76px;
+    line-height: 25.216px;
+    border-radius: 100px; /* 圆角 */
+    font-family: Sora, sans-serif; /* 按钮字体 */
+}
+
+.btn-primary {
+    background-color: var(--primary-color); /* Primary 按钮背景色，使用 CSS 变量 */
+    color: #fff; /* Primary 按钮文字颜色，白色 */
+    border-color: #035ec7;
+}
+
+.btn-default, div form.hs-form .hs_submit .hs-button, div.form-sfdc-wtl form input[type=submit] {
+    background-color: #fff; /* Default 按钮背景色，白色 */
+    color: var(--text-color); /* Default 按钮文字颜色，使用 CSS 变量 */
+    border: 1px solid var(--button-border-color); /* Default 按钮边框颜色，使用 CSS 变量 */
+}
+
+/* 5. UI 组件样式 - 表单元素 */
+.form-control, div form.hs-form input.hs-input, div form.hs-form textarea.hs-input, div form.hs-form select.hs-input, div.form-sfdc-wtl form input, div.form-sfdc-wtl form select, div.form-sfdc-wtl form textarea {
+    display: block;
+    width: 100%;
+    height: 38px; /* 默认高度 */
+    padding: 6px 14px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #a3a3a3; /* 默认文本颜色，浅灰色 */
+    background-color: #fff; /* 白色背景 */
+    border: 1px solid #babdbf; /* 边框样式 */
+    border-radius: 4px; /* 圆角边框 */
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075); /* 内阴影 */
+}
+
+.has-error .form-control, .has-error div form.hs-form input.hs-input, ... {
+    border-color: var(--accent-color-danger); /* 错误状态边框颜色，使用 CSS 变量 */
+}
+
+.has-success .form-control, .has-success div form.hs-form input.hs-input, ... {
+    border-color: var(--accent-color-success); /* 成功状态边框颜色，使用 CSS 变量 */
+}
+
+.has-warning .form-control, .has-warning div form.hs-form input.hs-input, ... {
+    border-color: var(--accent-color-warning); /* 警告状态边框颜色，使用 CSS 变量 */
+}
+
+/* 6. UI 组件样式 - 卡片 */
+.panel {
+    margin-bottom: 24px;
+    background-color: var(--card-bg); /* 卡片背景色，使用 CSS 变量 */
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px #0000000d;
+}
+
+.panel-primary > .panel-heading {
+    color: #fff; /* Primary Panel 标题文字颜色，白色 */
+    background-color: var(--primary-color); /* Primary Panel 标题背景色，使用 CSS 变量 */
+    border-color: var(--primary-color);
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 24px;
+    line-height: 1.6;
+    background-color: #fff; /* 白色背景 */
+    border: 1px solid #ddd; /* 灰色边框 */
+    border-radius: 4px; /* 圆角边框 */
+    transition: border .2s ease-in-out;
+}
+
+/* 7. UI 组件样式 - 导航和列表 */
+.navbar-default {
+    background-color: #fff; /* 导航栏背景色白色 */
+    border-color: #eee;
+}
+
+.navbar-default .navbar-brand {
+    color: var(--link-color); /* 品牌 Logo 颜色，使用 CSS 变量 */
+}
+
+.navbar-nav > li > a {
+    color: var(--link-color); /* 导航链接颜色，使用 CSS 变量 */
+}
+
+.breadcrumb {
+    background-color: transparent; /* 面包屑导航背景色透明 */
+    border-radius: 4px;
+}
+
+.breadcrumb > li + li:before {
+    color: #ccc; /* 分隔符颜色，浅灰色 */
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    color: #fff; /* 当前页分页按钮文字颜色，白色 */
+    background-color: var(--primary-color); /* 当前页分页按钮背景色，使用 CSS 变量 */
+    border-color: var(--primary-color);
+}
+
+.list-group-item {
+    background-color: #fff; /* 列表项背景色白色 */
+    border: 1px solid #ddd; /* 灰色边框 */
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    color: #fff; /* Active 列表项文字颜色，白色 */
+    background-color: var(--primary-color); /* Active 列表项背景色，使用 CSS 变量 */
+    border-color: var(--primary-color);
+}

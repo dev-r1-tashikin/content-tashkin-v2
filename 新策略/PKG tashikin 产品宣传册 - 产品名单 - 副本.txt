@@ -1,0 +1,57 @@
+Of course. Here is the complete product table organized by clinical problem and species, with the suggested optimizations, presented in English.
+
+---
+
+### **Veterinary Rapid IVD Test Solutions**
+
+#### **Canine Solutions**
+
+| **Clinical Module** | **Product Name (Code)** | **Descriptive Name** | **Detects** | **Sample Type** | **Primary Clinical Application** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Annual Wellness & Vector-Borne Diseases** | `CHW Ag` | Heartworm Antigen Test | Dirofilaria immitis Antigen | Whole Blood/Serum/Plasma | Annual screening and diagnosis of canine heartworm disease. |
+| | `Lyme/ANA/EHR Ab` | Lyme/Anaplasma/Ehrlichia 3-in-1 Ab Test | Antibodies to Borrelia, Anaplasma, Ehrlichia | Whole Blood/Serum/Plasma | Screens for common tick-borne diseases. |
+| | **`HW/Lyme/ANA/EHR` (Flagship Combo)** | **Canine Vector-Borne Disease 4-in-1 Combo** | CHW Ag + Ab to Lyme, Anaplasma, Ehrlichia | Whole Blood/Serum/Plasma | **The most comprehensive annual screening**, covering heartworm and three major tick-borne diseases in one test. |
+| **Gastrointestinal Panel** | `CPV Ag` | Canine Parvovirus Ag Test | Canine Parvovirus Antigen | Feces | Etiologic diagnosis of acute hemorrhagic enteritis in puppies. |
+| | `GIA Ag` | Giardia Ag Test | Giardia lamblia Antigen | Feces | Diagnosis of diarrhea caused by Giardia. |
+| | **`CPV/CCV/GIA Ag` (Smart Combo)** | **Canine Diarrhea Panel 3-in-1 Ag Combo** | Antigens of CPV, Canine Coronavirus, Giardia | Feces | **Efficient differential diagnosis**: Rules out the three most common causes of puppy diarrhea at once. |
+| **Respiratory Panel** | `CDV Ag` | Canine Distemper Virus Ag Test | Canine Distemper Virus Antigen | Eye/Nasal Swab | Diagnosis of the acute phase of Canine Distemper Virus infection. |
+| | `CIV Ag` | Canine Influenza Virus Ag Test | Canine Influenza Virus Antigen | Nasal Swab | Rapid etiological screening for Canine Influenza ("Kennel Cough"). |
+| | `CDV/CIV Ag` | CDV/CIV Ag Combo Test | Antigens of CDV and CIV | Eye/Nasal Swab | Differential diagnosis for dogs with upper respiratory symptoms. |
+| **Reproductive Health** | `Canine Relaxin` | Canine Relaxin (Pregnancy) Test | Dog Relaxin Hormone | Serum/Plasma | **Gold standard** for pregnancy confirmation in dogs (from day 25 post-mating). |
+| | **`Canine P4` (New Addition)** | **Canine Progesterone (P4) Test (Semi-Quantitative)** | Progesterone (Semi-Quantitative) | Serum/Plasma | **Essential for breeding**: Determines optimal ovulation/mating time and monitors pregnancy. |
+| | `Canine Bru Ab` | Canine Brucella Ab Test | Antibody to Canine Brucella | Serum | Pre-breeding health screening for stud dogs to prevent vertical transmission. |
+| **Emergency & Critical Care** | `cPL` | Canine Pancreatic Lipase Test | Canine Pancreas-specific Lipase | Serum/Plasma | Rapid diagnosis or rule-out of canine pancreatitis. |
+| | `cTnI` | Cardiac Troponin I Test | Cardiac Troponin I | Serum/Plasma | Rapid assessment of acute myocardial injury. |
+| | `D-Dimer` | D-Dimer Test | D-Dimer | Plasma | Assesses risk of thromboembolic diseases (e.g., DIC, PTE). |
+| | `Canine CRP` | Canine C-Reactive Protein (CRP) Test (Semi-Quantitative) | C-Reactive Protein (Semi-Quantitative) | Serum/Plasma | Monitors the severity of systemic inflammation and response to treatment. |
+| **Endocrine & Metabolic** | `Cystatin C` | Cystatin C (Early Renal) Test | Cystatin C | Serum/Plasma | A sensitive marker for early kidney injury. |
+| | `Canine CORT` | Canine Cortisol Test | Cortisol | Serum/Plasma | Screens for adrenal hyperfunction (Cushing's) or hypofunction (Addison's). |
+| **Vaccination Assessment** | **`CDV/CPV Ab` (Smart Combo)** | **CDV/CPV Antibody Titer Test** | Antibodies to CDV and CPV | Serum/Plasma | Assesses vaccine efficacy or maternal antibody levels to guide revaccination strategy. |
+
+---
+
+#### **Feline Solutions**
+
+| **Clinical Module** | **Product Name (Code)** | **Descriptive Name** | **Detects** | **Sample Type** | **Primary Clinical Application** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Annual Wellness & Core Infectious Diseases** | **`FeLV Ag / FIV Ab` (Core Test)** | **FeLV Ag / FIV Ab Combo Test** | FeLV Antigen + FIV Antibody | Whole Blood/Serum/Plasma | **Core wellness item for all cats**, especially for new cat intake screening. |
+| | `FeLV/FIV/CHW` | FeLV/FIV/Heartworm 3-in-1 Combo Test | FeLV Ag, FIV Ab, CHW Ag | Whole Blood/Serum/Plasma | Comprehensive screening for cats in heartworm-endemic areas. |
+| **Gastrointestinal & Systemic Diseases** | `FPV Ab/Ag` | Feline Panleukopenia Virus Ab/Ag Test | Feline Panleukopenia Virus Ab/Ag | Whole Blood/Feces | Diagnoses Feline Panleukopenia and can assess antibody levels. |
+| | `FCoV Ag` | Feline Coronavirus Ag Test | Feline Coronavirus Antigen | Feces/Ascitic fluid | Screens for Feline Coronavirus shedding (associated with FIP). |
+| | **`GIA Ag` (New Addition)** | **Giardia Ag Test** | Giardia lamblia Antigen | Feces | Diagnosis of persistent diarrhea caused by Giardia. |
+| | **`FPV/FCoV/GIA Ag` (Smart Combo)** | **Feline Diarrhea Panel 3-in-1 Ag Combo** | Antigens of FPV, FCoV, Giardia | Feces | **Efficient differential diagnosis**: Rules out common infectious causes of feline diarrhea. |
+| **Respiratory Panel ("Feline URI")** | `FCV/FHV-1 Ag` | FCV/FHV-1 Ag Combo Test | Antigens of FCV and FHV-1 | Eye/Nasal Swab | Rapid etiologic diagnosis for Feline Upper Respiratory Infection (URI) complex. |
+| **Emergency & Critical Care** | `fPL` | Feline Pancreatic Lipase Test | Feline Pancreas-specific Lipase | Serum/Plasma | Rapid diagnosis or rule-out of feline pancreatitis. |
+| | **`Feline SAA` (Core Marker)** | **Feline Serum Amyloid A (SAA) Test (Semi-Quantitative)** | Serum Amyloid A (Semi-Quantitative) | Serum/Plasma | **The most important inflammatory marker in cats** for assessing inflammation and monitoring therapy. |
+| | `NT-proBNP` | NT-proBNP (Cardiac) Test | N-terminal pro-B-type Natriuretic Peptide | Serum/Plasma | Screens for occult heart disease; assesses if respiratory distress is cardiogenic. |
+| **Endocrine & Metabolic** | `T4` | Total Thyroxine (T4) Test | Total Thyroxine (T4) | Serum/Plasma | Screens for feline hyperthyroidism. |
+
+---
+
+#### **General & Miscellaneous Solutions**
+
+| **Clinical Module** | **Product Name (Code)** | **Descriptive Name** | **Detects** | **Sample Type** | **Primary Clinical Application** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Zoonotic Diseases** | `Leptospira Ab` | Leptospira Ab Test | Antibody to Leptospira | Serum/Urine | Diagnosis or screening for Leptospirosis, a major zoonotic disease. |
+| | `TOXO Ab/Ag` | Toxoplasma Ab/Ag Test | Toxoplasma gondii Ab/Ag | Serum/Plasma | Screening for Toxoplasma infection. |
+| | `Rabies Ab` | Rabies Virus Ab Test | Rabies Virus Antibody | Serum | Assesses rabies vaccine efficacy, often required for pet travel certificates. |

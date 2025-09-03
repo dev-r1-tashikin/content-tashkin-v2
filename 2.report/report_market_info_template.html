@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>竞品网站模板 - Brand HTML/CSS Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThet7有力P5g7khKoP/kk508czWimXOe2Pfg1yuRwzGoj6g==" crossorigin="anonymous">
+    <style>
+       /* 品牌样式设计表 Report Guidance Style - Embedded CSS - 完整 CSS 代码请参考 c2.html */
+       :root{--card-bg: #F0F0F0;--card-bg-alt: #9CDCFF;--text-color: #31353D;--link-color: #036AE0;--heading-color: #036AE0;--button-border-color: #036AE0;--border-color: rgba(0, 0, 0, .2);}
+body{cursor:auto;display:flex;flex-direction:column;overflow:hidden scroll;-webkit-font-smoothing:antialiased;margin:0px;padding:0px;min-height:941.333px;font-family:Roboto, sans-serif;font-size:15px;line-height:24px;color:rgb(49, 53, 61);background-color:rgb(255, 255, 255);box-sizing:border-box;}
+h1, h2, h3, h4, h5, h6 {font-family: Sora, sans-serif;font-weight: 600;line-height: 1.2;color: #1a191a;}
+h2, .h2, .icon-text-teaser h3 {font-size: 34px;line-height:46px;}
+h1, .h1{font-size:42px;line-height:58px;}
+h3, .h3, .carousel-style-quotes blockquote{font-size:26px;line-height:38px;}
+a{color:#036ae0;text-decoration:none;overflow-wrap:break-word;}
+a:hover, a:focus{color:#036ae0;text-decoration:underline;}
+.btn-primary {color: #fff;background-color: #036ae0;border-color: #035ec7;border-radius: 100px;}
+.btn-default, div form.hs-form .hs_submit .hs-button, div.form-sfdc-wtl form input[type=submit] {background: #fff;color: #31353d;border: 1px solid #036AE0;border-radius: 100px;}
+.btn{display:inline-flex;flex-direction:row;white-space:nowrap;align-items:center;justify-content:center;border:0;font-weight:700;outline:none;text-align:center;user-select:none;min-height:38px;padding:6px 14px;font-size:15.76px;line-height:25.216px;font-family:Sora,sans-serif;min-width:180px;}
+.container{width: 1270px;margin-right: auto;margin-left: auto;padding-right:15px;padding-left:15px;}
+@media (min-width: 768px){ .container{width:750px;} }
+@media (min-width: 992px){ .container{width:970px;} }
+@media (min-width: 1270px){ .container{width:1270px;} }
+.section {padding: 50px 15px 20px;}
+@media (min-width: 992px){ .section {padding: 100px 30px 60px;} }
+.section-fullwidth {margin-left:-15px;margin-right:-15px;}
+@media (min-width: 768px){ .section-fullwidth{width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw;} }
+.style-1218 {display: grid;grid-template-areas: 'video content fig1' 'video content fig2' 'hr hr fig2';min-height: 640px;position: relative;overflow: hidden;box-sizing: border-box;}
+.style-1220 {object-fit: cover;position: absolute;inset: 0px;width: 100%;height: 554px;max-width: 100%;vertical-align: middle;box-sizing: border-box;}
+.style-1221 {padding: 30px;display: flex;align-items: center;justify-content: center;background: rgb(240, 240, 240) none repeat scroll 0% 0% / auto padding-box border-box;color: rgb(49, 53, 61);grid-area: content;box-sizing: border-box;}
+.style-1223 {font-size: 45px;line-height: 54px;margin: 0px 0px 12px;font-family: Sora, sans-serif;font-weight: 600;color: rgb(3, 106, 224);box-sizing: border-box;}
+.style-1226 {display: inline-flex;flex-direction: row;white-space: normal;align-items: center;justify-content: center;padding: 6px 36px;overflow-wrap: normal;background: rgb(11, 118, 240) none repeat scroll 0% 0% / auto padding-box border-box;color: rgb(255, 255, 255);border: 0px none rgb(255, 255, 255);font-weight: 600;outline: rgb(255, 255, 255) none 0px;text-align: center;user-select: none;min-height: 38px;font-family: Sora, sans-serif;min-width: 180px;font-size: 15.76px;background-color: rgb(11, 118, 240);border-color: rgb(255, 255, 255);margin-bottom: 0px;vertical-align: middle;touch-action: manipulation;cursor: pointer;background-image: none;line-height: 25.216px;border-radius: 100px;text-decoration: none solid rgb(255, 255, 255);box-sizing: border-box;background-color: rgba(0, 0, 0, 0);}
+        .style-1227 {background-size: 268px 13px;background-position: 60px 50%;background-color: rgb(3, 106, 224);background-repeat: no-repeat;grid-area: hr;box-sizing: border-box;}
+        .style-1229 {object-position: left 50% top 50%;object-fit: cover;position: absolute;inset: 0px;width: 100%;height: 228.115px;max-width: 100%;vertical-align: middle;box-sizing: border-box;border: 0px none rgb(49, 53, 61);}
+        .style-1231 {object-position: left 50% top 50%;object-fit: cover;position: absolute;inset: 0px;width: 100%;height: 411.885px;max-width: 100%;vertical-align: middle;box-sizing: border-box;border: 0px none rgb(49, 53, 61);}
+        .style-1234 {flex-direction: row;padding: 10px 0px;display: flex;gap: 10px;justify-content: space-around;list-style: outside none none;margin: 0px 0px 0px -176px;width: 100vw;background: rgb(240, 240, 240) none repeat scroll 0% 0% / auto padding-box border-box;line-height: 24px;padding-left: 0px;margin-top: 0px;margin-bottom: 0px;box-sizing: border-box;}
+        .style-1235 {text-align: center;width: 100%;font: 14px/18px Sora, sans-serif;background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;margin: 0px;padding: 32px 16px;margin-bottom: 0px;box-sizing: border-box;}
+        .style-1236 {display: block;font-weight: 600;box-sizing: border-box;}
+        .style-1239 {font-weight: 600;text-decoration: none solid rgb(3, 106, 224);overflow-wrap: break-word;color: rgb(3, 106, 224);box-sizing: border-box;background-color: rgba(0, 0, 0, 0);}
+        .style-1245 {font-weight: 600;text-decoration: none solid rgb(3, 106, 224);overflow-wrap: break-word;color: rgb(3, 106, 224);box-sizing: border-box;background-color: rgba(0, 0, 0, 0);}
+        .style-1248 {font-weight: 600;text-decoration: none solid rgb(3, 106, 224);overflow-wrap: break-word;color: rgb(3, 106, 224);box-sizing: border-box;background-color: rgba(0, 0, 0, 0);}
+        .style-1254 {font-weight: 600;text-decoration: none solid rgb(3, 106, 224);overflow-wrap: break-word;color: rgb(3, 106, 224);box-sizing: border-box;background-color: rgba(0, 0, 0, 0);}
+        .style-1257 {padding-bottom: 94.1333px;padding-top: 94.1333px;width: 100vw;position: relative;left: 620px;right: 620px;margin-left: -796px;margin-right: -796px;background-color: rgb(240, 240, 240);box-sizing: border-box;display: block;}
+        .style-1259 {max-width: 1270px;width: 100%;margin: 0px auto;box-sizing: border-box;}
+        .style-1260 {flex-direction: row;display: flex;justify-content: center;gap: 15px;box-sizing: border-box;}
+        .style-1261 {width: 100%;flex: 0 1 100%;display: grid;grid-template-columns: 620px 620px;grid-template-areas: "left right";background-color: rgb(255, 255, 255);box-sizing: border-box;}
+        .style-1262 {object-position: left 50% top 50%;max-width: 100%;height: 333.073px;object-fit: cover;vertical-align: middle;box-sizing: border-box;border: 0px none rgb(49, 53, 61);}
+        .style-1265 {font-size: 20px;line-height: 30px;margin-top: 0px;margin-bottom: 12px;font-family: Sora, sans-serif;font-weight: 600;color: rgb(26, 25, 26);box-sizing: border-box;}
+        .style-1268 {display: inline-flex;flex-direction: row;white-space: nowrap;align-items: center;justify-content: center;padding: 6px 36px;border: 0.666667px solid rgb(3, 106, 224);background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;color: rgb(49, 53, 61);font-weight: 600;outline: rgb(49, 53, 61) none 0px;text-align: center;user-select: none;min-height: 38px;font-family: Sora, sans-serif;min-width: 180px;font-size: 15.76px;overflow-wrap: break-word;margin-bottom: 0px;vertical-align: middle;touch-action: manipulation;cursor: pointer;background-image: none;line-height: 25.216px;border-radius: 100px;text-decoration: none solid rgb(49, 53, 61);box-sizing: border-box;background-color: rgba(0, 0, 0, 0);}
+    </style>
+</head>
+<body data-ind-ratio="150" data-indpositionleft="INDpositionLeft" data-inddesktop="INDDesktop" data-indchrome="INDChrome" data-indlangdirltr="INDlangdirLTR" data-indnotooltip="INDnoTooltip">
+    <header>
+        <!-- Header 区域 -->
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Brand Logo</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">产品</a></li>
+                        <li><a href="#">解决方案</a></li>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <!-- Hero Banner Section -->
+        <section class="section-hero" data-section="HeroBannerType2" data-sectionid="hero-banner-type-2">
+            <div class="style-1218">
+                <div class="style-1221">
+                    <div class="style-1222">
+                        <h1 class="style-1223">创新标题</h1>
+                        <div class="style-1224">
+                            <p class="style-1225">创新副标题</p>
+                        </div> <a class="style-1226" href="#clarity">Learn how</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Card Section -->
+        <section class="section-features" data-section="FeatureCard" data-sectionid="feature-card-1">
+            <div class="style-1258">
+                <div class="style-1259">
+                    <div class="style-1260">
+                        <div feature-card--feature="" theme-white="" class="style-1261">
+                            <img class="style-1262" src="https://placehold.co/620x333" alt="Feature Image" loading="lazy" />
+                            <div class="style-1263">
+                                <div class="style-1264">
+                                    <h3 class="style-1265">Feature Title</h3>
+                                    <div class="style-1266">
+                                        <p class="style-1267">Feature description text.</p>
+                                    </div> <a class="style-1268" href="#">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Card List Section -->
+        <section class="section-image-card-list" data-section="ImageCardList" data-sectionid="image-card-list-1">
+            <div class="style-1259">
+                <div class="style-1260">
+                    </div>
+                </div>
+            </section>
+
+        <!-- Video-Text Combination Section -->
+        <section class="section-video-text" data-section="VideoTextCombination" data-sectionid="video-text-1">
+            <div class="style-1325">
+                <div class="style-1326">
+                    <figure class="style-1327">
+                        <img src="https://placehold.co/635x357" alt="" loading="lazy" class="style-1328" />
+                    </figure>
+                    <div class="style-1329">
+                        <h2 class="style-1330">视频 + 文字组合 Section</h2>
+                        <div class="style-1331">
+                            <p class="style-1332">左侧是视频，右侧是文字介绍，常用于产品介绍、功能演示等场景，视频形式更生动直观，文字补充详细信息。</p>
+                        </div> <a class="style-1333" href="#" tabindex="0">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- List Info Section -->
+        <section class="section-list-info" data-section="ListInfo" data-sectionid="list-info-1">
+            <div class="style-1256">
+                <h3>List Info Section</h3>
+                <ul class="style-304">
+                    <li class="style-305">
+                        <a href="#" class="style-306">列表信息项 1</a>
+                    </li>
+                    </ul>
+            </div>
+        </section>
+
+        <!-- Statistic Card Section -->
+        <section class="section-statistic-card" data-section="StatisticCard" data-sectionid="statistic-card-1">
+            <div class="style-1258">
+                <div class="style-1260">
+                    <div class="style-1270">
+                        <div class="style-1271">
+                            <img  src="/static/bluebrand-icons/testtube.e03baf6c7dca.svg" alt="Testtube Icon" class="style-1272"/>
+                        </div>
+                        <div class="style-1273">
+                            <h3 class="style-1274">统计卡片 1</h3>
+                            <div class="style-1275">
+                                <p class="style-1276">统计卡片 1 内容</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="section-contact-form" data-section="ContactForm" data-sectionid="contact-form-1">
+            <div class="style-1256">
+                <h3>Contact Us</h3>
+                <form class="style-47">
+                    <div class="style-48">
+                        <input name="q" type="text" value="" placeholder="Your Name" class="style-49" />
+                    </div>
+                    </form>
+            </div>
+        </section>
+
+                
+         <!-- 9. Section - Full-width Image Section -->
+        <section class="section-fullwidth" data-section="FullWidthImage" data-sectionid="full-width-image-2">
+            <img src="https://placehold.co/1270x300/cccccc/999999" alt="Full Width Image" style="width: 100%; display: block;">
+        </section>
+
+        <!-- 10. Section - Text-only Content Section -->
+        <section class="section" data-section="TextContent" data-sectionid="text-content-2">
+            <div class="container">
+                <h2>公司团队</h2>
+                <p>公司团队介绍内容，使用 Text-only Content Section 展示。</p>
+            </div>
+        </section>
+
+        <!-- 11. Section - Icon Teaser Section -->
+        <section class="section" data-section="IconTeaser" data-sectionid="icon-teaser-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 icon-teaser">
+                        <div class="icon">图标5</div>
+                        <h3>核心服务 1</h3>
+                        <p>核心服务 1 描述文案。</p>
+                    </div>
+                     <div class="col-md-3 icon-teaser">
+                        <div class="icon">图标6</div>
+                        <h3>核心服务 2</h3>
+                        <p>核心服务 2 描述文案。</p>
+                    </div>
+                     <div class="col-md-3 icon-teaser">
+                        <div class="icon">图标7</div>
+                        <h3>核心服务 3</h3>
+                        <p>核心服务 3 描述文案。</p>
+                    </div>
+                     <div class="col-md-3 icon-teaser">
+                        <div class="icon">图标8</div>
+                        <h3>核心服务 4</h3>
+                        <p>核心服务 4 描述文案。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. Section - Call-to-Action Section -->
+        <section class="section" data-section="CallToAction" data-sectionid="call-to-action-2">
+            <div class="container text-center">
+                <h2>了解更多解决方案</h2>
+                <p>请点击下方按钮，了解更多解决方案信息。</p>
+                <a href="#" class="btn btn-default btn-lg">View More</a>
+            </div>
+        </section>
+
+         <!-- 9. Section - Full-width Image Section -->
+        <section class="section-fullwidth" data-section="FullWidthImage" data-sectionid="full-width-image-3">
+            <img src="https://placehold.co/1270x300/999999/cccccc" alt="Full Width Image" style="width: 100%; display: block;">
+        </section>
+
+        <!-- 10. Section - Text-only Content Section -->
+        <section class="section" data-section="TextContent" data-sectionid="text-content-3">
+            <div class="container">
+                <h2>我们的优势</h2>
+                <p>公司优势内容，使用 Text-only Content Section 展示，可用于突出公司实力。</p>
+            </div>
+        </section>
+
+        <!-- 11. Section - Icon Teaser Section -->
+        <section class="section" data-section="IconTeaser" data-sectionid="icon-teaser-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 icon-teaser">
+                        <div class="icon">图标9</div>
+                        <h3>应用场景 1</h3>
+                        <p>应用场景 1 描述文案。</p>
+                    </div>
+                     <div class="col-md-3 icon-teaser">
+                        <div class="icon">图标10</div>
+                        <h3>应用场景 2</h3>
+                        <p>应用场景 2 描述文案。</p>
+                    </div>
+                     <div class="col-md-3 icon-teaser">
+                        <div class="icon">图标11</div>
+                        <h3>应用场景 3</h3>
+                        <p>应用场景 3 描述文案。</p>
+                    </div>
+                     <div class="col-md-3 icon-teaser">
+                        <div class="icon">图标12</div>
+                        <h3>应用场景 4</h3>
+                        <p>应用场景 4 描述文案。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. Section - Call-to-Action Section -->
+        <section class="section" data-section="CallToAction" data-sectionid="call-to-action-3">
+            <div class="container text-center">
+                <h2>了解更多解决方案</h2>
+                <p>请点击下方按钮，了解更多解决方案信息。</p>
+                <a href="#" class="btn btn-default btn-lg">View More</a>
+            </div>
+        </section>
+
+         <!-- 9. Section - Full-width Image Section -->
+        <section class="section-fullwidth" data-section="FullWidthImage" data-sectionid="full-width-image-4">
+            <img src="https://placehold.co/1270x300/999999/cccccc" alt="Full Width Image" style="width: 100%; display: block;">
+        </section>
+
+        <!-- 10. Section - Text-only Content Section -->
+        <section class="section" data-section="TextContent" data-sectionid="text-content-4">
+            <div class="container">
+                <h2>联系方式</h2>
+                <p>联系方式信息，使用 Text-only Content Section 展示，方便用户找到联系方式。</p>
+            </div>
+        </section>
+
+        <!-- 11. Section - Icon Teaser Section -->
+        <section class="section" data-section="IconTeaser" data-sectionid="icon-teaser-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 icon-teaser">
+                        <div class="icon">图标13</div>
+                        <h3>产品特点 1</h3>
+                        <p>产品特点 1 描述文案。</p>
+                    </div>
+                     <div class="col-md-3 icon-teaser">
+                        <div class="icon">图标14</div>
+                        <h3>产品特点 2</h3>
+                        <p>产品特点 2 描述文案。</p>
+                    </div>
+                     <div class="col-md-3 icon-teaser">
+                        <div class="icon">图标15</div>
+                        <h3>产品特点 3</h3>
+                        <p>产品特点 3 描述文案。</p>
+                    </div>
+                     <div class="col-md-3 icon-teaser">
+                        <div class="icon">图标16</div>
+                        <h3>产品特点 4</h3>
+                        <p>产品特点 4 描述文案。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. Section - Call-to-Action Section -->
+        <section class="section" data-section="CallToAction" data-sectionid="call-to-action-4">
+            <div class="container text-center">
+                <h2>开始探索</h2>
+                <p>现在就开始探索我们的产品与服务吧。</p>
+                <a href="#" class="btn btn-primary btn-lg">Explore Now</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <!-- Footer 区域 -->
+        <div class="container">
+            <p class="footer-text">© 2025 Company Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

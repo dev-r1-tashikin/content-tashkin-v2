@@ -1,0 +1,20 @@
+---
+* 功能：基于页面框架 wireframes 分别加载相应的 prompt 并进行页面撰写
+---
+信息文件夹：3.info
+策略文件夹：4.strategy
+框架文件夹：5.outline
+详情文件夹：6.detail
+
+假设你是品牌策略师，
+请读取信息文件夹及策略文件夹内的：
+1、 info_total.md 品牌基本信息
+2、 info_visual.md 视觉指导，
+3、 strategy_web_basic.md 内容策略
+
+读取 [页面框架] sub/web_page_*.md 文件中的每一个页面定义，
+根据它的 [页面类型] 从详情文件夹 prompts 子文件夹中查找该页面相对应的 prompt_page_writer_*.md 文件 
+*（例如：[首页] 对应的是 prompt_page_writer_home_page.md, [主题集合页] 对应的是 prompt_page_writer_collection.md）
+撰写页面内容并保存到详情文件夹下的 pages 文件夹中，
+保存名称应该遵循 page_*.md 命名规范，例如：首页： page_home.md
+并生成或更新 seo_schema_js.md 这个文件，保存到 8.seo 文件夹中。

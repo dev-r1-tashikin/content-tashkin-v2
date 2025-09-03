@@ -1,0 +1,59 @@
+好的，遵照您的要求，我将结合 **“问题导向 + 物种分类”** 的结构，并融入 **“智能组合、产品补齐、清晰命名”** 的优化策略，为您呈现一个全新的、面向临床兽医的完整产品列表。
+
+这个列表不再仅仅是产品的陈列，而更像一个 **临床诊断解决方案指南**。
+
+---
+
+### **兽医快速诊断 (IVD) 产品解决方案**
+
+#### **犬用产品 (Canine Solutions)**
+
+| **临床模块 (Clinical Module)** | **产品名称 (Product Name)** | **描述性名称 (Descriptive Name)** | **检测目标 (Detects)** | **样本类型 (Sample Type)** | **核心临床应用 (Primary Clinical Application)** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **年度健康筛查 & 媒介传播病** | `CHW Ag` | 心丝虫抗原检测 | Dirofilaria immitis Antigen | 全血/血清/血浆 | 犬心丝虫年度筛查及感染诊断。 |
+| | `Lyme/ANA/EHR Ab` | 莱姆病/无形体/埃里希体三联抗体检测 | Antibodies to Borrelia, Anaplasma, Ehrlichia | 全血/血清/血浆 | 筛查由蜱虫传播的常见血液疾病。 |
+| | **`HW/Lyme/ANA/EHR` (旗舰组合)** | **犬载体传播疾病四项联检** | CHW Ag + Ab to Lyme, Anaplasma, Ehrlichia | 全血/血清/血浆 | **最全面的年度筛查**，一次性排查心丝虫及三种主要蜱媒病。 |
+| **消化道疾病 (Gastrointestinal Panel)** | `CPV Ag` | 犬细小病毒抗原检测 | Canine Parvovirus Antigen | 粪便 | 幼犬急性出血性肠炎的病原学诊断。 |
+| | `GIA Ag` | 贾第鞭毛虫抗原检测 | Giardia lamblia Antigen | 粪便 | 诊断由贾第鞭毛虫引起的腹泻。 |
+| | **`CPV/CCV/GIA Ag` (智能组合)** | **犬腹泻病原三联检** | Antigens of CPV, Canine Coronavirus, Giardia | 粪便 | **高效鉴别诊断**：一次性排查幼犬腹泻最常见的三种病因。 |
+| **呼吸道疾病 (Respiratory Panel)** | `CDV Ag` | 犬瘟热病毒抗原检测 | Canine Distemper Virus Antigen | 眼/鼻分泌物 | 犬瘟热病毒感染急性期诊断。 |
+| | `CIV Ag` | 犬流感病毒抗原检测 | Canine Influenza Virus Antigen | 鼻腔拭子 | 犬流感（犬咳）的快速病原筛查。 |
+| | `CDV/CIV Ag` | 犬瘟热/犬流感病毒抗原联检 | Antigens of CDV and CIV | 眼/鼻分泌物 | 出现上呼吸道症状犬的鉴别诊断。 |
+| **繁殖与优生 (Reproductive Health)** | `Canine Relaxin` | 犬松弛素（妊娠）检测 | Dog Relaxin Hormone | 血清/血浆 | **金标准**：确认犬是否怀孕（配种后25天起）。 |
+| | **`Canine P4` (产品补齐)** | **犬孕酮检测 (半定量)** | Progesterone (Semi-Quantitative) | 血清/血浆 | **繁殖必备**：确定最佳排卵及配种时机，监测孕期。 |
+| | `Canine Bru Ab` | 犬布鲁氏菌抗体检测 | Antibody to Canine Brucella | 血清 | 种犬的繁殖前健康筛查，防止垂直传播。 |
+| **急诊 & 重症监护 (Emergency & ICU)** | `cPL` | 犬胰腺特异性脂肪酶检测 | Canine Pancreas-specific Lipase | 血清/血浆 | 快速诊断或排除犬胰腺炎。 |
+| | `cTnI` | 心肌肌钙蛋白I检测 | Cardiac Troponin I | 血清/血浆 | 急性心肌损伤的快速评估。 |
+| | `D-Dimer` | D-二聚体检测 | D-Dimer | 血浆 | 评估血栓栓塞性疾病风险（如DIC, PTE）。 |
+| | `Canine CRP` | C-反应蛋白检测 (半定量) | C-Reactive Protein (Semi-Quantitative) | 血清/血浆 | 监测全身性炎症反应的严重程度及治疗效果。 |
+| **内分泌 & 代谢 (Endocrine & Metabolic)** | `Cystatin C` | 胱抑素C（早期肾功）检测 | Cystatin C | 血清/血浆 | 早期肾损伤的敏感指标。 |
+| | `Canine CORT` | 犬皮质醇检测 | Cortisol | 血清/血浆 | 筛查肾上腺皮质功能亢进（库兴）或减退（阿狄森）。 |
+| **疫苗免疫评估 (Vaccination Assessment)** | **`CDV/CPV Ab` (智能组合)** | **犬瘟热/细小病毒抗体水平检测** | Antibodies to CDV and CPV | 血清/血浆 | 评估疫苗接种效果或母源抗体水平，指导补免。 |
+
+---
+
+#### **猫用产品 (Feline Solutions)**
+
+| **临床模块 (Clinical Module)** | **产品名称 (Product Name)** | **描述性名称 (Descriptive Name)** | **检测目标 (Detects)** | **样本类型 (Sample Type)** | **核心临床应用 (Primary Clinical Application)** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **年度健康筛查 & 核心传染病** | **`FeLV Ag / FIV Ab` (核心必检)** | **猫白血病/艾滋病二联检** | FeLV Antigen + FIV Antibody | 全血/血清/血浆 | **所有猫的健康体检核心项目**，特别是新猫入院筛查。 |
+| | `FeLV/FIV/CHW` | 猫病/艾滋/心丝虫三联检 | FeLV Ag, FIV Ab, CHW Ag | 全血/血清/血浆 | 适用于心丝虫流行地区猫的全面筛查。 |
+| **消化道 & 全身性疾病** | `FPV Ab/Ag` | 猫瘟病毒抗体/抗原检测 | Feline Panleukopenia Virus Ab/Ag | 全血/粪便 | 诊断猫瘟（泛白细胞减少症），并可评估抗体水平。 |
+| | `FCoV Ag` | 猫冠状病毒抗原检测 | Feline Coronavirus Antigen | 粪便/腹水 | 筛查猫冠状病毒（与猫传腹FIP相关）的肠道排毒情况。 |
+| | **`GIA Ag` (产品补齐)** | **贾第鞭毛虫抗原检测** | Giardia lamblia Antigen | 粪便 | 诊断由贾第鞭毛虫引起的顽固性腹泻。 |
+| | **`FPV/FCoV/GIA Ag` (智能组合)** | **猫腹泻病原三联检** | Antigens of FPV, FCoV, Giardia | 粪便 | **高效鉴别诊断**：一次性排查猫腹泻的常见传染性病因。 |
+| **呼吸道疾病 (“猫鼻支”)** | `FCV/FHV-1 Ag` | 猫杯状/疱疹病毒抗原联检 | Antigens of FCV and FHV-1 | 眼/鼻分泌物 | 猫上呼吸道感染综合征的快速病原学诊断。 |
+| **急诊 & 重症监护 (Emergency & ICU)** | `fPL` | 猫胰腺特异性脂肪酶检测 | Feline Pancreas-specific Lipase | 血清/血浆 | 快速诊断或排除猫胰腺炎。 |
+| | **`Feline SAA` (核心指标)** | **血清淀粉样蛋白A检测 (半定量)** | Serum Amyloid A (Semi-Quantitative) | 血清/血浆 | **猫最重要的炎症标志物**，用于评估炎症及监控疗效。 |
+| | `NT-proBNP` | NT-proBNP（心脏）检测 | N-terminal pro-B-type Natriuretic Peptide | 血清/血浆 | 筛查隐性心脏病，评估呼吸窘迫是否由心源性引起。 |
+| **内分泌 & 代谢 (Endocrine & Metabolic)** | `T4` | 甲状腺素T4检测 | Total Thyroxine (T4) | 血清/血浆 | 筛查猫甲状腺功能亢进（甲亢）。 |
+
+---
+
+#### **通用及其他产品 (General & Other Solutions)**
+
+| **临床模块 (Clinical Module)** | **产品名称 (Product Name)** | **描述性名称 (Descriptive Name)** | **检测目标 (Detects)** | **样本类型 (Sample Type)** | **核心临床应用 (Primary Clinical Application)** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **人畜共患病 (Zoonotic)** | `Leptospira Ab` | 钩端螺旋体抗体检测 | Antibody to Leptospira | 血清/尿液 | 诊断或筛查钩端螺旋体病，一种重要的人畜共患病。 |
+| | `TOXO Ab/Ag` | 弓形虫抗体/抗原检测 | Toxoplasma gondii Ab/Ag | 血清/血浆 | 筛查弓形虫感染。 |
+| | `Rabies Ab` | 狂犬病病毒抗体检测 | Rabies Virus Antibody | 血清 | 评估狂犬疫苗免疫效果，用于部分出入境证明。 |

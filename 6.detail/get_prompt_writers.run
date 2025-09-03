@@ -1,0 +1,14 @@
+---
+* 初始化生成相关的 Prompt 语句
+* 注意：高阶的 LLM 模型，具备角色扮演和生成相关 Prompt 语句的能力 + 审核审查能力
+---
+假设你是品牌内容专家，
+请参考 prompt_get_web_wireframes.md 中的 schema 相关页面类型，
+并参考 template.prompt_page_writer.md 模板的写法，
+严格参考 3.info 中的所有 info_*.md 文件，
+理解并优化后，分别写出不同页面类型的相应的 Prompt 语句，
+并以 prompts/prompt_page_writer*.draft.md 的格式保存其独立的 Prompt 文件
+** 注意：
+* Prompt 语句应该设置为对该类型页面通用模板，输出数据JSON应该分别以目标JSON以及参考JSON示例进行举例。
+* Prompt 语句中不应该直接加载相关页面的 Section 要求，而是应该以 ``从文件 web_site_wireframes.md 中加载``
+* Prompt 中的目标JSON，应该标明页面type

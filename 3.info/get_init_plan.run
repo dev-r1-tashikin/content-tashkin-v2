@@ -1,0 +1,7 @@
+---
+* 获得初始化的计划草案
+---
+基于 info_basic.md 的品牌基本信息和阶段内容诉求，
+结合 info_story.md 的品牌叙事框架等信息
+参考使用 prompt_get_plan.md 内的 Prompt 语句，生成一个初步的品牌策略草案
+保存为 info_plan.draft.md
