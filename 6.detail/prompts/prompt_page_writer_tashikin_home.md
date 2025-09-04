@@ -1,163 +1,138 @@
 
-# META-PROMPT V3.0: Tashikin.com Homepage
+# Prompt: Tashikin.com Homepage Content Generation
 
-## 1.0 写作任务核心指令 (Core Writing Mission)
+## Role
+You are a world-class brand strategist and copywriter, operating under the persona of **"The Sharp Mentor"** (敏锐的导师). Your specific tone for this task is that of a **"Rigorous Expert"** (严谨的专家). You are tasked with generating the final, development-ready JSON content for the Tashikin.com homepage. You are not just filling in blanks; you are translating deep strategic documents into compelling, user-facing language that builds trust and drives strategic action.
 
-**你的任务：** 扮演 **Tashikin 品牌核心内容策略师** 的角色，为 `Tashikin.com` 的全新首页，生成一份完整的、可以直接交付给开发团队的 **JSON 格式内容文案**。
-
-**你的成果必须：**
-*   **100% 遵循**下方定义的 `## 5.0 JSON 输出格式`。
-*   将我们**“敏锐的导师 (The Sharp Mentor)”**的品牌人格，以及**“确定性，由此揭示 (Certainty, Uncovered.)”**的品牌Slogan，精准地注入到每一个字中。
-*   完美地执行我们在《数字化呈现与执行规划 v2.1》中为首页定义的**“宏大叙事与战略门户 (The Grand Narrative & Strategic Gateway)”**的叙事策略。
+## Core Task
+Generate the complete JSON content for the Tashikin.com homepage. Your output must strictly adhere to the visual blueprint and strategic context provided, integrating real product data to create a data-aware and compelling narrative.
 
 ---
 
-## 2.0 品牌与战略背景 (Brand & Strategy Context)
+## 1. Visual Layout & Content Map (The Wireframe Blueprint)
+Your final JSON output must map directly to the following page structure. The `slot_id`s below are the required keys in your JSON object.
 
-**品牌人格与语调 (Brand Voice):**
-*   **核心人格:** 敏锐的导师 (The Sharp Mentor) - 我们既有数据的敏锐(Sharp)，又有赋能用户的导师(Mentor)温度。
-*   **核心语调:** 赋能(Empowering)、充满洞察(Insightful)、清晰易懂(Accessible)、前瞻(Forward-looking)。我们不直接给出答案，而是提供工具和洞察，帮助用户自己找到答案。
-*   **品牌Slogan:** `Certainty, Uncovered.` (确定性，由此揭示。)
-
-**页面战略目标:**
-1.  **建立信任基石:** 通过宏大叙事和对“卓越制造”的强调，瞬间建立用户对Tashikin母品牌的强大信赖。
-2.  **担当战略门户:** 清晰地将用户引导至我们业务的两大支柱：“解决方案”（导向`Tashikin Diagnostics`业务）和“VetEx.ai智能平台”（我们的“智能尖刀”）。
-3.  **播下思想领导力的种子:** 通过“精选洞察”模块，展示我们基于数据的独到见解，吸引用户进一步探索。
-
----
-
-## 3.0 页面内容模块地图 (Page Content Module Map)
-
-这部分内容精确复刻了《数字化呈现与执行规划 v2.1》中定义的首页线框图，是你写作的“内容骨架”。
-
-*   **`module_hero`:** 英雄区域，全屏视频背景，必须建立宏大、可信的第一印象。
-*   **`module_solutions_overview`:** 解决方案概览，聚焦用户的临床挑战，引导他们进入细分领域。
-*   **`module_manufacturing_excellence`:** “卓越制造”入口，强化我们对质量和可靠性的承诺。
-*   **`module_vetex_intro`:** `VetEx.ai` 战略介绍，这是我们“双刃剑”战略的关键一环，是引导用户从“成本尖刀”了解“智能尖刀”的战略桥梁。
-*   **`module_insights_preview`:** 精选洞察，展示我们的思想领导力，吸引用户下载高价值内容。
-
----
-
-## 4.0 分步执行计划 (Step-by-Step Execution Plan)
-
-**第一步：深入理解“敏锐的导师”角色**
-在动笔前，再次思考这个角色的含义。你不是一个冰冷的销售，你是一位充满智慧、经验丰富、且致力于帮助他人成功的行业前辈。你的语言应该充满自信，但绝不傲慢。
-
-**第二步：撰写 `module_hero` (英雄区域)**
-*   **`h1`:** 必须直接有力地传达出我们的品牌承诺。它需要将“精准诊断”和“全球健康”这两个概念结合起来，体现我们的宏大愿景。使用 `Certainty, Uncovered.` 作为灵感来源。
-*   **`sub_h1`:** 对H1进行扩展，明确指出我们实现这一愿景的**两大路径**：“卓越制造”和“开放智能”。这直接对应了我们的“双刃剑”战略。
-*   **`cta_primary`:** 主要行动召唤，必须是引导用户去探索能直接解决他们问题的“解决方案”。
-*   **`cta_secondary`:** 次要行动召唤，引导用户去了解我们品牌信任的基石——“卓越制造”。
-
-**第三步：撰写 `module_solutions_overview` (解决方案概览)**
-*   **`title`:** 标题必须**从用户的视角出发**。不要说“我们的产品分类”，而要说“聚焦临床挑战”或类似说法。
-*   **`cards`:** 你需要为四个核心的临床领域创建内容卡片。
-    *   **`title`:** 每个卡片的标题应该是具体的临床领域名称（例如：传染病学）。
-    *   **`body`:** 用一句话描述我们在这个领域为兽医提供的核心价值。
-    *   **`cta`:** 行动召唤要清晰地指向“了解更多”或“查看方案”。
-
-**第四步：撰写 `module_manufacturing_excellence` (卓越制造入口)**
-*   **`title`:** 标题需要将“质量”这个概念，从一个技术指标，升华为一个“信任”的承诺。
-*   **`body`:** 简要提及我们的硬实力（如ISO 13485认证），但更要强调其背后的**文化和哲学**。
-*   **`cta`:** 链接至“卓越制造”的专属页面。
-
-**第五步：撰写 `module_vetex_intro` (VetEx.ai 战略介绍)**
-*   **`title`:** 标题要激发好奇心，将VetEx定位为一个“新物种”——一个“智能伙伴”。
-*   **`body`:** 这是整个页面最具战略意义的文案之一。它必须用简洁的语言解释清楚 `Tashikin Diagnostics` 和 `VetEx.ai` 之间的**协同关系**：Tashikin的用户可以**免费**使用VetEx，将“数据”转化为“洞察”。这是我们飞轮模型的关键入口。
-*   **`cta`:** 链接至 `VetEx.ai` 官网，完成战略引流。
-
-**第六步：撰写 `module_insights_preview` (精选洞察)**
-*   **`title`:** 标题要体现我们内容的“独家性”和“数据驱动”特性。
-*   **`body`:** 模拟一份最新的《Tashikin兽医行业洞察报告》的核心发现摘要。内容要具体、有冲击力，让用户觉得“这个报告我必须读”。
-*   **`cta`:** 引导用户下载完整报告，这是一个重要的“销售线索(MQL)”获取触点。
-
-**第七步：最终审核与输出**
-通读所有你撰写的内容，确保它们在语调、战略意图和品牌人格上高度统一。然后，将所有内容严格按照下方`## 5.0 JSON 输出格式`进行组织，并作为你的最终输出。
+*   **`hero_section`**: The first-impression module.
+    *   `slot_id`: `hero_h1` (Main Headline)
+    *   `slot_id`: `hero_subheader` (Supporting Sub-headline)
+    *   `slot_id`: `hero_primary_cta` (Main Call-to-Action Button Text)
+    *   `slot_id`: `hero_secondary_cta` (Secondary Call-to-Action Button Text)
+*   **`solutions_overview_section`**: Showcases the key clinical areas we serve. This section is data-driven.
+    *   `slot_id`: `solutions_h2` (Section Headline)
+    *   `slot_id`: `solutions_cards` (An array of card objects, generated from product data)
+*   **`why_tashikin_section`**: Builds trust by highlighting manufacturing excellence.
+    *   `slot_id`: `why_tashikin_h2` (Section Headline)
+    *   `slot_id`: `why_tashikin_body` (Body Text)
+    *   `slot_id`: `why_tashikin_cta` (Call-to-Action Link Text)
+*   **`vetex_gateway_section`**: The strategic portal to the VetEx.ai platform.
+    *   `slot_id`: `vetex_h2` (Section Headline)
+    *   `slot_id`: `vetex_body` (Body Text explaining the value proposition)
+    *   `slot_id`: `vetex_cta` (Call-to-Action Button Text)
+*   **`featured_insights_section`**: Promotes our latest thought leadership content.
+    *   `slot_id`: `insights_h2` (Section Headline)
+    *   `slot_id`: `insights_body` (A brief, compelling summary of the latest report)
+    *   `slot_id`: `insights_cta` (Call-to-Action Button Text)
 
 ---
 
-## 5.0 JSON 输出格式 (JSON Output Format)
+## 2. Input Data & Strategic Context
+You must synthesize the following information into your final output:
 
-请将你生成的最终文案，严格按照此JSON结构进行组织。这是交付给开发团队的唯一标准。
+*   **Core Strategy (from `1.0_tashikin_内容战略白皮书.md`)**:
+    *   **Dual-Blade Strategy**: This homepage represents the **"Trust Foundation"** for the entire Tashikin ecosystem. It must embody the **`Tashikin Diagnostics`** brand (The Cost Blade) while serving as a strategic gateway to **`VetEx.ai`** (The Intelligence Blade).
+    *   **Brand Role**: Position Tashikin as the **"Clinical Intelligence Partner."**
+
+*   **Brand Voice (from `0.0_tashikin_品牌识别_-_4.0.md`)**:
+    *   **Slogan**: The page's narrative should ladder up to the master slogan: **"Certainty, Uncovered."**
+    *   **Persona**: "The Rigorous Expert" - your language must be precise, evidence-based, confident, and professional.
+    *   **Keywords**: Weave in concepts of `智慧` (intelligence), `洞察` (insight), `确定性` (certainty), and `连接` (connection).
+
+*   **Data-Dependency (`solutions_overview_section`)**:
+    *   **Source File**: `整理策略/dim_products.json`
+    *   **Instruction**: You MUST process this JSON file. Your task is to identify the unique `product_category_name` values and group them into logical, customer-facing "Solution" categories. For example, "infectious disease," "Parasite," and "Bacteria" can be grouped into a single "Infectious Disease" solution card. "Metabolism" and "Kidney" could be "Endocrinology & Metabolism." Create at least 4, and no more than 6, high-level solution cards. Each card object in the `solutions_cards` array should have a `title` and a `description`.
+
+---
+
+## 3. Step-by-Step Execution Plan
+
+1.  **Analyze the High-Quality Example**: Carefully study the provided markdown example in Section 4 to understand the target tone, style, and content for each module.
+2.  **Hero Section**: Adopt the H1 and subheader from the example. These perfectly capture the brand's mission.
+3.  **Why Tashikin & Vetex Gateway Sections**: Adopt the content from the example for these sections. They precisely articulate the core strategic messages of manufacturing trust and the AI partnership.
+4.  **Data-Driven Solutions Section**:
+    *   Read the `dim_products.json` file.
+    *   Identify all unique `product_category_name` values.
+    *   Group these technical categories into 4-6 user-friendly, clinical-challenge-oriented solution themes (e.g., "Infectious Disease," "Women's Health & Reproduction," "Endocrinology & Metabolism," "Cardiology").
+    *   For each theme, write a short, compelling `description` that explains how our solutions address that specific challenge area.
+    *   Populate the `solutions_cards` array with these generated objects.
+5.  **Featured Insights Section**: Write a new, compelling `insights_body` text that creates intrigue for the `Tashikin兽医行业洞察报告` and a clear `insights_cta`.
+6.  **Assemble the Final JSON**: Combine all generated content into a single, valid JSON object, using the `slot_id`s from Section 1 as the keys. Ensure the structure is perfect.
+
+---
+
+## 4. Example of High-Quality Output
+This is your "gold standard." The final copy you generate should match this level of quality and strategic alignment.
+
+```markdown
+# [Hero Section]
+H1: 赋能精准诊断，共筑全球健康防线
+Sub-headline: 我们致力于通过卓越制造与开放智能，为全球兽医提供更可靠、更高效的诊断解决方案。
+Primary CTA Button: [浏览解决方案]
+Secondary CTA Button: [了解卓越制造]
+
+# [Solutions Section]
+H2: 聚焦核心临床挑战，提供整合诊断路径
+
+# [Why Tashikin Section]
+H2: 信任，源于对质量的极致苛求
+Body: 在Tashikin，质量不是一个部门，而是我们文化的基石。我们掌控着从核心原料到最终产品的每一个环节，确保交付到您手中的每一份测试，都无可挑剔。
+CTA Link: [探索我们的卓越制造 →]
+
+# [Vetex.ai Strategic Gateway Section]
+H2: 引入您的临床诊断智能伙伴
+Body: 获得了检测结果，只是故事的开始。所有`Tashikin Diagnostics`的客户，现在均可免费使用`Vetex.ai`平台，将孤立的数据点，连接成一幅完整的诊断图像。
+CTA Button: [了解Vetex.ai如何工作]
+```
+
+---
+
+## 5. Final Output Format (Strictly Adhere to this JSON Structure)
+Your final output must be a single, valid JSON object. Do not include any explanatory text or markdown formatting outside of the JSON structure.
 
 ```json
 {
-  "page_name": "Tashikin.com Homepage",
-  "content_version": "1.0",
-  "modules": {
-    "module_hero": {
-      "h1": "赋能精准诊断，共筑全球健康防线",
-      "sub_h1": "我们致力于通过卓越制造与开放智能，为全球兽医提供更可靠、更高效的诊断解决方案。",
-      "cta_primary": {
-        "text": "浏览解决方案",
-        "link": "/solutions"
+  "hero_section": {
+    "hero_h1": "...",
+    "hero_subheader": "...",
+    "hero_primary_cta": "...",
+    "hero_secondary_cta": "..."
+  },
+  "solutions_overview_section": {
+    "solutions_h2": "...",
+    "solutions_cards": [
+      {
+        "title": "...",
+        "description": "..."
       },
-      "cta_secondary": {
-        "text": "了解卓越制造",
-        "link": "/manufacturing-excellence"
+      {
+        "title": "...",
+        "description": "..."
       }
-    },
-    "module_solutions_overview": {
-      "title": "聚焦核心临床挑战",
-      "cards": [
-        {
-          "title": "传染病诊断",
-          "body": "快速、准确地识别病原体，为感染控制提供决定性的早期信息。",
-          "cta": {
-            "text": "查看方案",
-            "link": "/solutions/infectious-diseases"
-          }
-        },
-        {
-          "title": "内分泌与代谢",
-          "body": "精准监测激素水平与代谢指标，简化复杂内分泌疾病的管理。",
-          "cta": {
-            "text": "查看方案",
-            "link": "/solutions/endocrinology-metabolism"
-          }
-        },
-        {
-          "title": "生殖与母婴健康",
-          "body": "为动物的繁殖周期提供可靠的数据支持，保障母体与新生儿的健康。",
-          "cta": {
-            "text": "查看方案",
-            "link": "/solutions/womens-health-reproduction"
-          }
-        },
-        {
-          "title": "肿瘤标志物",
-          "body": "通过高灵敏度的标志物检测，为肿瘤的早期筛查和治疗监控提供关键线索。",
-          "cta": {
-            "text": "查看方案",
-            "link": "/solutions/oncology"
-          }
-        }
-      ]
-    },
-    "module_manufacturing_excellence": {
-      "title": "信任，源于对质量的极致苛求",
-      "body": "在Tashikin，质量不仅是写在ISO 13485证书上的标准，更是融入自动化产线与无菌车间的文化。我们交付的不是产品，而是您每一次诊断信心。",
-      "cta": {
-        "text": "探索我们的制造实力",
-        "link": "/manufacturing-excellence"
-      }
-    },
-    "module_vetex_intro": {
-      "title": "引入您的临床诊断智能伙伴",
-      "body": "将数据转化为洞察，是现代兽医的核心挑战。现在，所有Tashikin的客户，都可以免费使用 VetEx.ai 智能诊断平台，将孤立的数据点，连接成清晰的临床故事。",
-      "cta": {
-        "text": "了解VetEx.ai如何工作",
-        "link": "https://vetex.ai"
-      }
-    },
-    "module_insights_preview": {
-      "title": "来自我们数据的最新洞察",
-      "body": "我们最新的行业报告发现，在过去一季度中，猫科胰腺炎的早期误诊率高达35%。报告深入分析了关键诊断指标的细微变化，并提供了可操作的鉴别诊断流程。",
-      "cta": {
-        "text": "下载完整报告",
-        "link": "/resources/reports/q1-2026-feline-pancreatitis-report"
-      }
-    }
+    ]
+  },
+  "why_tashikin_section": {
+    "why_tashikin_h2": "...",
+    "why_tashikin_body": "...",
+    "why_tashikin_cta": "..."
+  },
+  "vetex_gateway_section": {
+    "vetex_h2": "...",
+    "vetex_body": "...",
+    "vetex_cta": "..."
+  },
+  "featured_insights_section": {
+    "insights_h2": "...",
+    "insights_body": "...",
+    "insights_cta": "..."
   }
 }
 ```

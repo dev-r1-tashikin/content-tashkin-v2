@@ -89,6 +89,7 @@ Generate a JSON object matching the following structure precisely. Populate the 
 
 ```json
 {
+  "page_slug": "",
   "pageType": "{{page_type}}",
   "page": {
     "url": "{{seo_inputs.target_url}}",

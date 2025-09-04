@@ -1,44 +1,57 @@
+### **【最终版指令：用于生成“页面内容生成Prompt”系列文件 (V2 - Link-Aware)】**
+
 ## 🎯 Goal
-To generate a complete set of high-quality, structured `prompt_page_writer_*.md` files in the `6.detail/prompts/` directory. Each file serves as a detailed **brief and an executable instruction set** for a final AI content agent. The generated briefs must be **data-aware**, integrating real product data where necessary to create context-rich instructions.
+To generate a complete set of high-quality, structured \`prompt_page_writer_*.md\` files in the \`6.detail/prompts/\` directory. Each file serves as a detailed **brief and an executable instruction set** for a final AI content agent. The generated briefs must be **data-aware**, **example-driven**, and **link-aware**, producing a development-ready JSON output.
 
 ## ⚙️ How It Works
 
-This command synthesizes information from core strategy documents, **product data files**, and page structure blueprints to create a complete, actionable instruction set for a subsequent content generation step.
+This command synthesizes information from core strategy documents, product data files, and page structure blueprints to create a complete, actionable instruction set for a subsequent content generation step.
 
-### Inputs (What I read)
+### 📚 Inputs (What I read)
 This command synthesizes information from our core **Tashikin strategy and data sources**:
 
-1.  **Page Manifest & Structure Blueprints**: `新策略/8.0 tashikin 数字化呈现与执行规划 v2.1.md`
-    *   **Purpose**: Provides the definitive list of all pages (Sitemap) and defines the specific content modules and **content slot names** for each page (Wireframes). This is the architectural backbone.
+1.  **Page Manifest & Structure Blueprints**: \`新策略/8.0 tashikin 数字化呈现与执行规划 v2.1.md\`
+    *   **Purpose**: Provides the definitive list of all pages (Sitemap), their intended URL structure, and defines the specific content modules and **content slot names** for each page (Wireframes). This is the architectural backbone.
 
-2.  **Core Narrative & Strategy**: `新策略/1.0 tashikin 内容战略白皮书.md` and `新策略/7.0 tashikin 内容与教育引擎战略规划.md`
+2.  **Core Narrative & Strategy**: \`新策略/1.0 tashikin 内容战略白皮书.md\` and \`新策略/7.0 tashikin 内容与教育引擎战略规划.md\`
     *   **Purpose**: Provides the central story, the "why," key messaging (e.g., "双刃剑战略"), and the value propositions that must be woven into the generated prompts.
 
-3.  **Brand Voice & Identity**: `新策略/0.0 tashikin 品牌识别 - 4.0.md`
+3.  **Brand Voice & Identity**: \`新策略/0.0 tashikin 品牌识别 - 4.0.md\`
     *   **Purpose**: Defines the brand's personality ("敏锐的导师" / "The Sharp Mentor"), tone, and communication style.
 
-4.  **Product Portfolio Data**: `整理策略/dim_products.json` (e.g., the `dim_products.json` file)
-    *   `<!-- NEW AND CRITICAL -->`
-    *   **Purpose**: This is the **single source of truth for the actual products**. It is the "raw material" that the generated prompt will instruct the final AI agent to analyze and use, especially for pages like the Homepage, Solutions Hubs, and Product Category pages.
+4.  **Product Portfolio Data**: \`整理策略/dim_products.json\`
+    *   \`<!-- CRITICAL -->\`
+    *   **Purpose**: This is the **single source of truth for the actual products**. It is the "raw material" that the generated prompt will instruct the final AI agent to analyze and use.
 
-### Process (What I do)
-1.  I start by reading the **Page Manifest** from the `数字化呈现与执行规划` to get the full list of pages to create.
-2.  For each page, I find its corresponding **Wireframe** in the same document and extract the precise module structure and all **content slot names** (e.g., `hero_h1`, `solutions_cards`, `whyTashikin_body`).
-3.  I then extract the core messaging, strategic goals, and user pain points for that specific page from the **Core Narrative** documents.
-4.  `<!-- MODIFIED PROCESS STEP -->`
-    I determine if the page is **data-dependent**. For pages like the Homepage (requiring solution categories) or a Product Category Page, I will now also read and analyze the **Product Portfolio Data JSON**. I will formulate instructions on *how* the final AI should process this data (e.g., "identify unique categories," "list products under this category").
-5.  Next, I consult the **Brand Voice** guide to define the precise `Role`, `Tone`, and `Keywords` for the AI that will execute the prompt.
-6.  `<!-- MODIFIED PROCESS STEP -->`
-    Finally, I synthesize all these elements—**the precise wireframe structure, the strategic narrative, the brand voice, AND the instructions for data analysis**—into a single, comprehensive markdown file. This file becomes a V3.0 meta-prompt, which explicitly includes:
-    *   A **Visual Layout & Content Map** section describing the wireframe.
-    *   An **Input Data** section referencing the required product data file.
-    *   A **Step-by-Step Execution Plan** for the final AI.
-    *   A **Final Output Format** section with a complete JSON structure using the correct content slot names.
-7.  The file is saved to `6.detail/prompts/prompt_page_writer_[page_name].md`.
+5.  **High-Quality Content Examples**: \`新策略/核心页面内容.md\`
+    *   \`<!-- CRITICAL -->\`
+    *   **Purpose**: This file is **NOT for summarizing**. It serves as a library of "answer keys" or high-quality final outputs. It will be used to provide a powerful "few-shot" example within the generated prompts.
 
-### Outputs (What you get)
-*   A complete set of `prompt_page_writer_*.md` files. Each file is now a rich, data-aware, and structure-aware brief (like the V3.0 example we designed), ready to produce near-final, development-ready content.
+### 👨‍🍳 Process (What I do)
+
+You will execute the following algorithm:
+
+1.  Start by reading the **Page Manifest** from \`8.0 tashikin 数字化呈现与执行规划 v2.1.md\` to get the full list of pages for which you need to create a prompt.
+2.  For each page in the list, you will perform the following steps:
+    a. **Define URL Structure**: Determine the page's canonical **URL Slug** (e.g., from '卓越制造' to 'manufacturing-excellence') and its final **URL Path** (e.g., \`/manufacturing-excellence\`). This information is critical.
+    b. Find its corresponding **Wireframe** in the \`8.0\` document. Meticulously extract the precise module structure and all **content slot names**.
+    c. Extract the core messaging and strategic goals for that specific page from the **Core Narrative** documents (\`1.0\` and \`7.0\`).
+    d. Determine if the page is **data-dependent** and formulate instructions for the AI on how to process the \`dim_products.json\` file.
+    e. Consult the **Brand Voice** guide (\`0.0\`) to define the precise \`Role\`, \`Tone\`, and \`Keywords\` for the final AI.
+    f. Search within the **High-Quality Content Examples** file (\`核心页面内容.md\`) for the content block corresponding to the current page to use as a "few-shot" example.
+    g. Synthesize all the elements from the preceding steps into a single, comprehensive markdown file. This file becomes the final \`prompt_page_writer_*.md\` and **MUST** contain the following distinct sections:
+        *   \`Role:\`
+        *   \`Core Task:\`
+        *   \`1. Visual Layout & Content Map (The Wireframe Blueprint):\`
+        *   \`2. Input Data & Strategic Context:\` (This section must now also explicitly state the **page URL/Slug** and any other key link destinations).
+        *   \`3. Step-by-Step Execution Plan:\`
+        *   \`4. Example of High-Quality Output:\` (Embed the content from step 'f' here).
+        *   \`5. Final Output Format (Strictly Adhere to this JSON Structure):\` (This section must define a **development-ready JSON schema**, including a root \`page_slug\` and \`page_url\`, and ensuring **all links or CTAs are objects containing both \`text\` and \`url\` keys**).
+    h. Save the generated file to the \`6.detail/prompts/\` directory, named systematically as \`prompt_page_writer_[page_name].md\`.
+
+### 📄 Outputs (What you get)
+*   A complete set of \`prompt_page_writer_*.md\` files located in the \`6.detail/prompts/\` directory. Each file is a rich, data-aware, example-driven, and **link-aware** brief, ready to produce near-final, development-ready JSON content.
 
 ---
 ### ❌ Abandoned Processes
-This command completely replaces the old, template-based process. Instead of just creating prompts with high-level guidance, it now generates **executable instruction sets** that tell the final AI *exactly* how to integrate real-world data into a predefined visual structure. This eliminates guesswork and ensures a perfect fit between content, data, and design.
+This command completely replaces any old, template-based process. Instead of just creating prompts with high-level guidance, it now generates **executable instruction sets** that tell the final AI *exactly* how to integrate real-world data, high-quality examples, and **critical linking information** into a predefined visual structure. This eliminates guesswork and ensures a perfect fit between content, data, design, and functionality.
