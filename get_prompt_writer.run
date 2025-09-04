@@ -1,0 +1,44 @@
+## 🎯 Goal
+To generate a complete set of high-quality, structured `prompt_page_writer_*.md` files in the `6.detail/prompts/` directory. Each file serves as a detailed **brief and an executable instruction set** for a final AI content agent. The generated briefs must be **data-aware**, integrating real product data where necessary to create context-rich instructions.
+
+## ⚙️ How It Works
+
+This command synthesizes information from core strategy documents, **product data files**, and page structure blueprints to create a complete, actionable instruction set for a subsequent content generation step.
+
+### Inputs (What I read)
+This command synthesizes information from our core **Tashikin strategy and data sources**:
+
+1.  **Page Manifest & Structure Blueprints**: `新策略/8.0 tashikin 数字化呈现与执行规划 v2.1.md`
+    *   **Purpose**: Provides the definitive list of all pages (Sitemap) and defines the specific content modules and **content slot names** for each page (Wireframes). This is the architectural backbone.
+
+2.  **Core Narrative & Strategy**: `新策略/1.0 tashikin 内容战略白皮书.md` and `新策略/7.0 tashikin 内容与教育引擎战略规划.md`
+    *   **Purpose**: Provides the central story, the "why," key messaging (e.g., "双刃剑战略"), and the value propositions that must be woven into the generated prompts.
+
+3.  **Brand Voice & Identity**: `新策略/0.0 tashikin 品牌识别 - 4.0.md`
+    *   **Purpose**: Defines the brand's personality ("敏锐的导师" / "The Sharp Mentor"), tone, and communication style.
+
+4.  **Product Portfolio Data**: `整理策略/dim_products.json` (e.g., the `dim_products.json` file)
+    *   `<!-- NEW AND CRITICAL -->`
+    *   **Purpose**: This is the **single source of truth for the actual products**. It is the "raw material" that the generated prompt will instruct the final AI agent to analyze and use, especially for pages like the Homepage, Solutions Hubs, and Product Category pages.
+
+### Process (What I do)
+1.  I start by reading the **Page Manifest** from the `数字化呈现与执行规划` to get the full list of pages to create.
+2.  For each page, I find its corresponding **Wireframe** in the same document and extract the precise module structure and all **content slot names** (e.g., `hero_h1`, `solutions_cards`, `whyTashikin_body`).
+3.  I then extract the core messaging, strategic goals, and user pain points for that specific page from the **Core Narrative** documents.
+4.  `<!-- MODIFIED PROCESS STEP -->`
+    I determine if the page is **data-dependent**. For pages like the Homepage (requiring solution categories) or a Product Category Page, I will now also read and analyze the **Product Portfolio Data JSON**. I will formulate instructions on *how* the final AI should process this data (e.g., "identify unique categories," "list products under this category").
+5.  Next, I consult the **Brand Voice** guide to define the precise `Role`, `Tone`, and `Keywords` for the AI that will execute the prompt.
+6.  `<!-- MODIFIED PROCESS STEP -->`
+    Finally, I synthesize all these elements—**the precise wireframe structure, the strategic narrative, the brand voice, AND the instructions for data analysis**—into a single, comprehensive markdown file. This file becomes a V3.0 meta-prompt, which explicitly includes:
+    *   A **Visual Layout & Content Map** section describing the wireframe.
+    *   An **Input Data** section referencing the required product data file.
+    *   A **Step-by-Step Execution Plan** for the final AI.
+    *   A **Final Output Format** section with a complete JSON structure using the correct content slot names.
+7.  The file is saved to `6.detail/prompts/prompt_page_writer_[page_name].md`.
+
+### Outputs (What you get)
+*   A complete set of `prompt_page_writer_*.md` files. Each file is now a rich, data-aware, and structure-aware brief (like the V3.0 example we designed), ready to produce near-final, development-ready content.
+
+---
+### ❌ Abandoned Processes
+This command completely replaces the old, template-based process. Instead of just creating prompts with high-level guidance, it now generates **executable instruction sets** that tell the final AI *exactly* how to integrate real-world data into a predefined visual structure. This eliminates guesswork and ensures a perfect fit between content, data, and design.

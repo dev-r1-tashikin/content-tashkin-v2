@@ -1,0 +1,274 @@
+{
+    "table": "dim_products",
+    "rows":
+    [
+    {
+    "website_display_name": "PROG Test Kits",
+    "product_category_name": "pregnancy"
+    },
+    {
+    "website_display_name": "CRV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "CRY Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "EHR Ab Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "Leptospira Ab Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "cTnI Test Kits",
+    "product_category_name": "Myocardium"
+    },
+    {
+    "website_display_name": "HbA1c Test Kits",
+    "product_category_name": "Metabolism"
+    },
+    {
+    "website_display_name": "T3 Test Kits",
+    "product_category_name": "Metabolism"
+    },
+    {
+    "website_display_name": "T4 Test Kits",
+    "product_category_name": "Metabolism"
+    },
+    {
+    "website_display_name": "TSH Test Kits",
+    "product_category_name": "Metabolism"
+    },
+    {
+    "website_display_name": "D-Dimer Test Kits",
+    "product_category_name": "Cardiac"
+    },
+    {
+    "website_display_name": "GIA Ag Test Kits",
+    "product_category_name": "Parasite"
+    },
+    {
+    "website_display_name": "TOXO Ag Test Kits",
+    "product_category_name": "Parasite"
+    },
+    {
+    "website_display_name": "Anaplasma Ab Test Kits",
+    "product_category_name": "Parasite"
+    },
+    {
+    "website_display_name": "Babesia Ab Test Kits",
+    "product_category_name": "Parasite"
+    },
+    {
+    "website_display_name": "LSH Ab Test Kits",
+    "product_category_name": "Parasite"
+    },
+    {
+    "website_display_name": "Neospora Ab Test Kits",
+    "product_category_name": "Parasite"
+    },
+    {
+    "website_display_name": "Tsutsugamushi Ab Test Kits",
+    "product_category_name": "Parasite"
+    },
+    {
+    "website_display_name": "TOXO Ab Test Kits",
+    "product_category_name": "Parasite"
+    },
+    {
+    "website_display_name": "HP Ag Test Kits",
+    "product_category_name": "Bacteria"
+    },
+    {
+    "website_display_name": "SAA Test Kits",
+    "product_category_name": "Inflammation"
+    },
+    {
+    "website_display_name": "EHR ANA Test Kits",
+    "product_category_name": "infectious disease, parasite"
+    },
+    {
+    "website_display_name": "ANA BAB EHR Test Kits",
+    "product_category_name": "infectious disease, parasite"
+    },
+    {
+    "website_display_name": "ANA BAB CHW EHR Test Kits",
+    "product_category_name": "infectious disease, parasite"
+    },
+    {
+    "website_display_name": "RLN Test Kits",
+    "product_category_name": "pregnancy"
+    },
+    {
+    "website_display_name": "ICH Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "CAVII Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "CCV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "CDV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "CIV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "CPIV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "CPV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "CCV CPV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "CDV CAV-2 Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "CDV CIV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "CDV Ab Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "CPV Ab Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "Lyme Ab Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "Rabies Ab Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "C.NT-proBNP Test Kits",
+    "product_category_name": "Myocardium"
+    },
+    {
+    "website_display_name": "cPL Test Kits",
+    "product_category_name": "Pancreatic"
+    },
+    {
+    "website_display_name": "Cystatin C Test Kits",
+    "product_category_name": "Kidney"
+    },
+    {
+    "website_display_name": "C.CORT Test Kits",
+    "product_category_name": "Kidney"
+    },
+    {
+    "website_display_name": "CHW Ag Test Kits",
+    "product_category_name": "Parasite"
+    },
+    {
+    "website_display_name": "C.Bru Ab Test Kits",
+    "product_category_name": "Bacteria"
+    },
+    {
+    "website_display_name": "C.CRP Test Kits",
+    "product_category_name": "Inflammation"
+    },
+    {
+    "website_display_name": "C.IgE Test Kits",
+    "product_category_name": "Allergy"
+    },
+    {
+    "website_display_name": "CCV CPV GIA Test Kits",
+    "product_category_name": "infectious disease, parasite"
+    },
+    {
+    "website_display_name": "FPV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FeLV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FCoV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FHV-1 Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FCV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FCV Ab Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FIV Ag Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FCOV FCV FHV-1 FPV Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FPV Ab Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FIV Ab Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FIP Ab Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FHV-1 Ab Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FCV FHV-1 Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FeLV Ag FIV Ab Test Kits",
+    "product_category_name": "infectious disease"
+    },
+    {
+    "website_display_name": "FPL Test Kits",
+    "product_category_name": "Pancreatic"
+    },
+    {
+    "website_display_name": "F.SAA Test Kits",
+    "product_category_name": "Inflammation"
+    },
+    {
+    "website_display_name": "FCOV FCV FHV-1 FPV TOXO Test Kits",
+    "product_category_name": "infectious disease, parasite"
+    },
+    {
+    "website_display_name": "FeLV FIV GIA Ag Test Kits",
+    "product_category_name": "infectious disease, parasite"
+    },
+    {
+    "website_display_name": "FCoV FeLV FIV Heartworm Combo Rapid Test",
+    "product_category_name": "infectious disease, parasite"
+    }
+    ]
+    }
